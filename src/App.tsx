@@ -1,12 +1,4 @@
 import React from 'react';
+import { Routes } from './routes'
 
-function App() {
-  return (
-    <div className="App">
-             inicio do projeto
-
-    </div>
-  );
-}
-
-export default App;
+export const App = () => <Routes />
