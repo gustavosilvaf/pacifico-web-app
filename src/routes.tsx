@@ -2,7 +2,7 @@ import React from 'react';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import { Index }from './domains/index/index';
+import { Index }from './domains/index/index.page';
 
 export const Routes = () =>
     <BrowserRouter>

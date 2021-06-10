@@ -1,0 +1,18 @@
+@import '../../../shared/styles/global-styles.scss';
+
+.Header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 2em;
+
+
+    &__box {
+        max-width: $notebook-break-point;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
